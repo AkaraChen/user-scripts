@@ -12,7 +12,6 @@
 document.addEventListener('keydown', function(event) {
   if ((event.ctrlKey || event.metaKey) && event.key === 'k') {
     var sidebarInput = document.querySelector('#column-left > div > div > div.sidebar-header.can-have-forum > div.input-search > input');
-    console.log(sidebarInput)
     if (sidebarInput) {
       sidebarInput.focus();
     }
