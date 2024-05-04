@@ -9,7 +9,7 @@
 // ==/UserScript==
 
 // add search shortcut
-document.addEventListener('keydown', function(event) {
+document.addEventListener('keyup', function(event) {
   if ((event.ctrlKey || event.metaKey) && event.key === 'k') {
     var sidebarInput = document.querySelector('#column-left > div > div > div.sidebar-header.can-have-forum > div.input-search > input');
     if (sidebarInput) {
